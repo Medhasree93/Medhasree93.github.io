@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Medhasree Ghosh | Computer Science Researcher</title>
+  <title>Dr. Medhasree Ghosh | Computer Science Researcher</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- SEO -->
-  <meta name="description" content="Medhasree Ghosh is a Computer Science researcher, recieved her PhD from IIT Patna, working on Deep Learning, Complex networks, and Blockchain Security.">
+  <meta name="description" content="Dr. Medhasree Ghosh is a Computer Science researcher, PhD from IIT Patna, working on Deep Learning, Complex Networks, and Blockchain Security.">
 
   <!-- Google Site Verification -->
   <meta name="google-site-verification" content="ucrv8en3VsKfnnwXPbRc1_XBSwFut2zF0_onXGY8ElI" />
@@ -59,7 +59,7 @@
       max-width: 950px;
       margin: 45px auto;
       background: white;
-      padding: 45px 45px;
+      padding: 45px;
       border-radius: 8px;
     }
 
@@ -70,6 +70,7 @@
       padding-bottom: 6px;
     }
 
+    /* About */
     .about {
       text-align: center;
     }
@@ -85,12 +86,41 @@
       margin-bottom: 18px;
     }
 
+    /* Quote */
     .quote {
       font-style: italic;
       background: #f1f3f5;
       padding: 20px;
       border-left: 4px solid #0d1b2a;
       margin: 25px 0;
+    }
+
+    /* Newest Achievements Ticker */
+    .ticker {
+      background: #f1f3f5;
+      border-radius: 6px;
+      padding: 15px;
+      overflow: hidden;
+      margin-top: 20px;
+    }
+
+    .ticker ul {
+      display: inline-block;
+      white-space: nowrap;
+      animation: scroll 32s linear infinite;
+      padding: 0;
+      margin: 0;
+    }
+
+    .ticker li {
+      display: inline;
+      margin-right: 60px;
+      font-weight: 600;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
     }
 
     ul {
@@ -130,164 +160,107 @@
 </header>
 
 <nav>
+  <a href="#latest">Latest</a>
   <a href="#about">About</a>
+  <a href="#teaching">Teaching</a>
   <a href="#awards">Awards</a>
-  <a href="#volunteer">Volunteer</a>
-  <a href="#reviews">Reviews</a>
-  <a href="#collaborators">Collaborators</a>
-  <a href="#testimonials">Testimonials</a>
   <a href="#contact">Reach Out</a>
 </nav>
 
+<!-- NEWEST ACHIEVEMENTS -->
+<section id="latest">
+  <h2>Newest Achievements</h2>
+  <div class="ticker">
+    <ul>
+      <li>🎓 Successfully defended my doctoral thesis on December 12, 2025.</li>
+      <li>🌍 Received postdoctoral offers from the University of Oulu (Finland) and GIST, South Korea.</li>
+      <li>📘 Systematic review on Ethereum phishing accepted in Q1 journal Blockchain: Research and Applications (IF 5.6).</li>
+      <li>🎤 Honored to serve as Session Chair at ACM KDD 2025, Toronto (Fraud & Threat Detection Track).</li>
+      <li>📢 Presented “TEMPER” at the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ABOUT -->
 <section id="about" class="about">
   <h2>About Me</h2>
 
   <img src="MedhasreeGhosh%20Pic.jpeg" alt="Medhasree Ghosh">
 
   <p>
-    I’m <strong>Dr. Medhasree Ghosh</strong>, a researcher in Computer Science and Engineering. I recently finished my doctoral degree at the 
-    <strong>Indian Institute of Technology Patna</strong>, where I explored the fascinating crossroads 
-    of <strong>Deep Learning, Complex networks, and Blockchain Security</strong>. My research focuses on 
-    designing interpretable deep learning frameworks to detect and mitigate security threats in 
-    decentralized ecosystems — because if machines can think, they might as well think securely. I am about to join University of Oulu as a post-doctoral researcher. 
-  </p>
-
-  <p>
-    It’s my long-term dream to establish my own research lab and contribute to academia both as a 
-    dedicated teacher and an inspiring research mentor, nurturing minds, ideas, and maybe even a 
-    few coffee addictions along the way.
-  </p>
-
-  <p>
-    Outside the academic realm, I am proudly a foodie with a research-level curiosity for flavors. 
-    I run my Instagram food page 
-    <a href="https://www.instagram.com/check_n_eat_with_mg/" target="_blank"><strong>@check_n_eat_with_mg</strong></a>, 
-    where algorithms pause and calories take charge — from street food experiments to fine dining stories.
-    When not chasing food trails, I find peace in photography, reflective writing, and the quiet company 
-    of nature. I am a true believer of <strong>GOD and KARMA</strong>.
-  </p>
-
-  <p>
-    Well, to be honest, I am one of those lucky ones who found her profession as her passion — and never stopped loving it.
+    I’m <strong>Dr. Medhasree Ghosh</strong>, a researcher in Computer Science and Engineering. I recently
+    completed my doctoral degree at the <strong>Indian Institute of Technology Patna</strong>, where I worked
+    at the crossroads of <strong>Deep Learning, Complex Networks, and Blockchain Security</strong>.
+    My research focuses on building interpretable deep learning frameworks for detecting and mitigating
+    security threats in decentralized ecosystems — because if machines can think, they might as well think securely.
+    I am about to join the <strong>University of Oulu</strong> as a postdoctoral researcher.
   </p>
 
   <div class="quote">
-    “Goodness is the truest form of wisdom — for what we give to the world through honesty and empathy 
-    is what the universe returns to us.”  
-    <br><strong>— Medhasree</strong>
+    “Goodness is the truest form of wisdom — for what we give to the world through honesty and empathy
+    is what the universe returns to us.” <br><strong>— Medhasree</strong>
   </div>
-
-  <p>
-    In my own words, I am-
-    Teacher by Passion.<br>
-    Researcher by Love.<br>
-    Foodie by Birth.<br>
-    Empathetic by Nature.<br>
-    Mentor by Profession.
-  </p>
 
   <a class="btn" href="MedhasreeGhosh_CV.pdf" target="_blank">Download CV (PDF)</a>
 </section>
 
+<!-- TEACHING PHILOSOPHY -->
+<section id="teaching">
+  <h2>Teaching Philosophy</h2>
+
+  <p>
+    My teaching philosophy is grounded in the belief that <strong>teaching is the most powerful form of communication</strong>.
+    For me, building an IIT-level Computer Science cohort is not merely a responsibility but a privilege.
+    I strive to create classrooms that are interest-driven, conceptually rigorous, and rooted in
+    practical reasoning rather than rote learning.
+  </p>
+
+  <p>
+    I am comfortable teaching all core Computer Science subjects, with a special passion for
+    Formal Languages and Automata Theory, Data Structures and Programming, Design and Analysis of Algorithms,
+    and Database Management Systems. I am equally enthusiastic about advanced electives such as
+    Machine Learning, Data Mining, Data Analytics, and Complex Networks.
+  </p>
+
+  <p><strong>My instructional approach follows a three-layer pedagogy model:</strong></p>
+
+  <ul>
+    <li><strong>Concept clarity</strong> through board-centric explanations and intuition building.</li>
+    <li><strong>Practice-driven learning</strong> using problem-solving sessions, coding demonstrations, and dataset-based experiments.</li>
+    <li><strong>Recap-centric mentoring</strong> through structured handwritten-style notes that serve as lifelong academic resources.</li>
+  </ul>
+
+  <p>
+    Drawing from my PhD research on deep learning–driven security analysis of Ethereum, I plan to introduce
+    <strong>Security Analytics with Deep Learning</strong> as an applied module where students analyze real
+    transaction graphs, detect anomalies, and visualize vulnerabilities. Teaching has never felt like a duty
+    to me — it is my chosen path.
+  </p>
+</section>
+
+<!-- AWARDS -->
 <section id="awards">
   <h2>Awards & Achievements</h2>
   <ul>
     <li>Qualified GATE 2018 & UGC NET 2020 (Assistant Professor).</li>
-    <li>Awarded GATE AICTE National Fellowship (M.Tech, University of Calcutta) and MHRD Research Fellowship (PhD, IIT Patna).</li>
-    <li>Awarded travel grants from INDOML 2022 (IIT Gandhinagar) and INDOML 2023 (IIT Bombay).</li>
-    <li>Session Chair at ACM KDD 2025 – Fraud and Threat Detection.</li>
-    <li>Google APAC Conference Support Grant for WWW 2025, Sydney, Australia.</li>
-    <li>ACM IARCS Grant for WWW 2025, Sydney, Australia.</li>
-    <li>Microsoft Conference Support Grant for KDD 2025, Toronto, Canada.</li>
-    <li>Invited Talk on Graph Neural Networks, North East Hill University.</li>
-    <li>Attended & Presented at UBISS 2024, University of Oulu, Finland.</li>
-    <li>Vice President, IEEE Student Branch, IIT Patna (2024–2025).</li>
-    <li>Research Mentor, I-Can Group (2025).</li>
-    <li>PhD Representative, Department of CSE, IIT Patna (2025).</li>
+    <li>Recipient of GATE AICTE National Fellowship and MHRD Research Fellowship.</li>
+    <li>Multiple international travel grants including Google APAC, ACM IARCS, and Microsoft.</li>
+    <li>Session Chair at ACM KDD 2025.</li>
   </ul>
-</section>
-
-<section id="volunteer">
-  <h2>Volunteer Experience</h2>
-  <ul>
-    <li>Research Scholar Day 2022, IIT Patna.</li>
-    <li>Research Scholar Day 2023, IIT Patna.</li>
-    <li>National Symposium of Research Scholars 2023, IIT Patna.</li>
-    <li>Session Chair, ACM KDD 2025.</li>
-  </ul>
-</section>
-
-<section id="reviews">
-  <h2>Review Experience</h2>
-  <ul>
-    <li>IEEE Transactions on Computational Social Systems</li>
-    <li>Information Processing & Management</li>
-    <li>Cluster Computing</li>
-    <li>Applied Intelligence</li>
-    <li>World Wide Web</li>
-    <li>IEEE Internet Computing</li>
-    <li>Scientific Reports</li>
-    <li>Pattern Recognition and Letters</li>
-    <li>IEEE Transactions on Network and Service Management</li>
-    <li>The Web Conference</li>
-    <li>RAAISA 2025</li>
-    <li>PReMI AI4SG 2025</li>
-    <li>AdComSys</li>
-  </ul>
-</section>
-
-<section id="collaborators">
-  <h2>My Collaborators</h2>
-  <ul>
-    <li>Swapnil Srivastava, Software Engineer, Rubrik, India</li>
-    <li>Apoorva Upadhyaya, Researcher, L3S Research Center, Germany</li>
-    <li>Chirag D. Jain, Researcher, University of California, San Diego</li>
-    <li>Dinesh Chukkala, D. E. Shaw India</li>
-    <li>Dyuti Ghosh, Summer Intern, Unilever (Lakme Skin)</li>
-  </ul>
-</section>
-
-<section id="testimonials">
-  <h2>What My Mentors Say</h2>
-
-  <p><em>
-    “I have supervised Medhasree for her doctoral journey and she stands out for her professionalism and disciplined life. I have seen her calmly handling all ups and downs. I truly believe that she is a very bright young researcher. Apart from research, I have seen her as a teaching assistant, in which she has an outstanding performance with utmost responsibility sense. I wish her all the best!”  
-    </em><br>
-    <strong>— Dr. Raju Halder, Associate Professor, IIT Patna, (halder@iitp.ac.in)[PhD Supervisor]</strong>
-  </p>
-
-  <p><em>
-    “Medhasree stands out not only for her hard work and punctuality but also for her professionalism and determination. I supervised her jointly with Dr. Raju Halder. I believe she will excel in the field of teaching, mentoring and research. Her passion and determination is topnotch.”  
-    </em><br>
-    <strong>— Dr. Joydeep Chandra, Associate Professor, IIT Patna (joydeep@iitp.ac.in) [PhD Joint Supervisor]</strong>
-  </p>
-
-  <p><em>
-    “Under my supervision, Dr. Medhasree completed her Master’s thesis and I have continued to follow her academic progress with great admiration. Over the years, Medhasree has built an impressive research portfolio, publishing in leading international venues that attest to the quality and impact of her work. Her smooth and successful transition from computational biology to deep learning–based blockchain security research demonstrates remarkable adaptability and intellectual agility. She has a rare talent for conducting comprehensive literature reviews and distilling them into innovative research ideas. ”  
-    </em><br>
-    <strong>— Prof. Rajat Kumar Pal, University of Calcutta (rkpcomp@Caluniv.ac.in) [Master's Thesis Supervisor]</strong>
-  </p>
-  <p><em>
-    “As a Teaching Assistant, Medhasree consistently went above and beyond expectations. She not only conducted practical demonstration classes with clarity and confidence but also assisted in preparing course materials and evaluating student assignments. Her ability to explain complex concepts in a simple and structured manner made her an effective communicator and a reliable support for both students and faculty. Students found her approachable and helpful, and I greatly appreciated her dedication, punctuality, and attention to detail in managing all aspects of her TA responsibilities. ”  
-    </em><br>
-    <strong>— Dr. Samrat Mondal, IIT Patna (samrat@iitp.ac.in) [TA Mentor]</strong>
-  </p>
 </section>
 
 <section id="contact">
   <h2>Reach Out to Me</h2>
   <p>
-    📧 medhasree_2121cs05@iitp.ac.in / medhasree.ghosh@gmail.com<br><br>
+    📧 medhasree_2121cs05@iitp.ac.in / medhasree.ghosh@gmail.com<br>
     🔗 <a href="https://github.com/Medhasree93" target="_blank">GitHub</a><br>
     🔗 <a href="https://www.linkedin.com/in/medhasree-ghosh-080018233" target="_blank">LinkedIn</a><br>
-    🔗 <a href="https://scholar.google.com/citations?user=DsGb9mgAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a><br><br>
-    🆔 ORCID: 0000-0002-0106-6912<br>
-    🆔 Web of Science: OLP-5496-2025
+    🔗 <a href="https://scholar.google.com/citations?user=DsGb9mgAAAAJ" target="_blank">Google Scholar</a>
   </p>
 </section>
 
 <footer>
-  © 2026 Medhasree Ghosh · Built with passion, research, and good coffee ☕
+  © 2026 Dr. Medhasree Ghosh · Built with research, teaching, and good coffee ☕
 </footer>
 
 </body>
