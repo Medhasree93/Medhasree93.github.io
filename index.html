@@ -154,7 +154,30 @@
       background: #e9ecef;
       font-size: 0.9em;
     }
+    .about-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-flex img {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text p {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
   </style>
+  
 </head>
 
 <body>
@@ -178,26 +201,35 @@
 
 
 <!-- ABOUT -->
-<section id="about" class="about">
+<section id="about">
   <h2>About Me</h2>
 
-  <img src="MedhasreeGhosh%20Pic.jpeg" alt="Medhasree Ghosh">
+  <div class="about-flex">
+    <img src="MedhasreeGhosh%20Pic.jpeg" alt="Medhasree Ghosh">
 
-  <p>
-    I’m <strong>Dr. Medhasree Ghosh</strong>, a researcher in Computer Science and Engineering. I recently
-    completed my doctoral degree at the <strong>Indian Institute of Technology Patna</strong>, where I worked
-    at the crossroads of <strong>Deep Learning, Complex Networks, and Blockchain Security</strong>.
-    My research focuses on building interpretable deep learning frameworks for detecting and mitigating
-    security threats in decentralized ecosystems, because if machines can think, they might as well think securely.
-    I am about to join the <strong>University of Oulu</strong> as a postdoctoral researcher. I aspire to pursue a professorial career where I can contribute meaningfully to academia through both impactful research and dedicated teaching—two pursuits I value equally and deeply enjoy.
-  </p>
+    <div class="about-text">
+      <p>
+        I’m <strong>Dr. Medhasree Ghosh</strong>, a researcher in Computer Science and Engineering. I recently
+        completed my doctoral degree at the <strong>Indian Institute of Technology Patna</strong>, where I worked
+        at the crossroads of <strong>Deep Learning, Complex Networks, and Blockchain Security</strong>.
+        My research focuses on building interpretable deep learning frameworks for detecting and mitigating
+        security threats in decentralized ecosystems—because if machines can think, they might as well think securely.
+      </p>
 
-  <div class="quote">
-    “Goodness is the truest form of wisdom, for what we give to the world through honesty and empathy
-    is what the universe returns to us.” <br><strong>— Medhasree</strong>
+      <p>
+        I am about to join the <strong>University of Oulu</strong> as a postdoctoral researcher. I aspire to pursue
+        a professorial career where I can contribute meaningfully to academia through both impactful research
+        and dedicated teaching—two pursuits I value equally and deeply enjoy.
+      </p>
+
+      <div class="quote">
+        “Goodness is the truest form of wisdom, for what we give to the world through honesty and empathy
+        is what the universe returns to us.” <br><strong>— Medhasree</strong>
+      </div>
+
+      <a class="btn" href="MedhasreeGhosh_CV.pdf" target="_blank">Download CV (PDF)</a>
+    </div>
   </div>
-
-  <a class="btn" href="MedhasreeGhosh_CV.pdf" target="_blank">Download CV (PDF)</a>
 </section>
 <!-- NEWEST ACHIEVEMENTS -->
 <section id="latest">
