@@ -176,10 +176,19 @@
   margin-bottom: 16px;
 }
 
-@keyframes blinkEffect {
-  0% { opacity: 1; }
-  50% { opacity: 0.2; }
-  100% { opacity: 1; }
+.blink-text {
+  font-weight: bold;
+  font-size: 22px;
+  color: yellow;
+  padding: 10px;
+  text-align: center;
+  animation: flash 0.8s infinite;
+}
+
+@keyframes flash {
+  0% { background-color: red; }
+  50% { background-color: black; }
+  100% { background-color: red; }
 }
 
   </style>
@@ -228,20 +237,10 @@
         and dedicated teaching—two pursuits I value equally and deeply enjoy.
       </p>
 
-      <p style="
-  font-weight: bold;
-  font-size: 22px;
-  color: white;
-  background-color: red;
-  padding: 10px 15px;
-  border-radius: 6px;
-  text-align: center;
-  animation: blinkEffect 2.5s ease-in-out infinite;
-">
-🚀 Internship Opportunity in Federated Learning on Healthcare Data and Digital Twin Frameworks!!  
+     <p class="blink-text">
+🚀 Internship Opportunity in Federated Learning on Healthcare Data and Digital Twin Frameworks!! 
 Contact: medhasree.ghosh@gmail.com
 </p>
-      </p>
 
       <div class="quote">
         “Goodness is the truest form of wisdom, for what we give to the world through honesty and empathy
